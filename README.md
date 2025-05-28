@@ -35,25 +35,28 @@ This project leverages deep learning to detect pneumonia from chest X-ray images
 Dataset used: **Chest X-Ray Images (Pneumonia)** from Kaggle
 🔗 [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
-> ⚠️ Note: The dataset (`chest_xray/`) must be downloaded manually from the link above.
-
 ---
 
 ## 💻 Getting Started
 
-### 1. Clone the repository
+### 1. **Clone the repository**
 
+```bash
 git clone [https://github.com/chopra-mayank/Pneumonia-Detection.git](https://github.com/chopra-mayank/Pneumonia-Detection.git)
 cd Pneumonia-Detection
+```
 
 ### 2. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the web application
 
+```bash
 python app.py
-
+```
 ### 4. Open in your browser
 
 Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to access the application.
