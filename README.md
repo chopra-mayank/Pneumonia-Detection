@@ -1,46 +1,39 @@
-Here is your **updated `README.md` file**, preserving your style and structure while adding the enhanced **Model Performance Summary** and updated **Features** as requested — without including code or deep explanations:
-
----
-
-```markdown
 # 🫁 Pneumonia Detection Using Chest X-Ray Images
 
-This project leverages deep learning to detect pneumonia from chest X-ray images. It features a Convolutional Neural Network (CNN), a Flask web app for real-time predictions, and visualizations to track model performance.
+This project leverages deep learning to detect pneumonia from chest X-ray images. It features a VGG16-based Convolutional Neural Network (CNN), a Flask web application for real-time predictions, and performance visualizations.
 
 ---
 
 ## 🚀 Features
 
 * ✅ VGG16-based CNN with transfer learning and dropout regularization
-* 🔄 Last 4 convolutional layers unfrozen for fine-tuning
-* 📊 Real-time visualization of accuracy and loss
+* 🔄 Fine-tuning with the last 4 convolutional layers unfrozen
+* 📊 Real-time training visualization (accuracy & loss)
 * 🌐 Flask-based UI for image uploads and predictions
-* 🧩 Modular structure for training, testing, evaluation, and deployment
+* 🧩 Modular architecture for training, testing, evaluation, and deployment
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
-├── app.py                           # Flask web application
-├── Score.py                         # Model evaluation script
-├── Training-Pneumonia.py            # CNN training script
-├── Testing-Pneumonia.py             # Model testing script
-├── templates/                       # HTML templates for Flask
-├── static/                          # CSS, JS, and images
-├── Training and Validation Accuracy.png
-├── Training and Validation Loss.png
-├── requirements.txt                 # Python dependencies
-
-````
+├── app.py                             # Flask web application  
+├── Score.py                           # Model evaluation script  
+├── Training-Pneumonia.py              # CNN training script  
+├── Testing-Pneumonia.py               # Model testing script  
+├── templates/                         # HTML templates for Flask  
+├── static/                            # CSS, JS, and images  
+├── Training and Validation Accuracy.png  
+├── Training and Validation Loss.png  
+├── requirements.txt                   # Python dependencies  
+```
 
 ---
 
 ## 🧠 Dataset
 
-Dataset used: **Chest X-Ray Images (Pneumonia)** from Kaggle  
-🔗 [Kaggle Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+Dataset used: **Chest X-Ray Images (Pneumonia)** from Kaggle
+🔗 [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 > ⚠️ Note: The dataset (`chest_xray/`) must be downloaded manually from the link above.
 
@@ -50,22 +43,16 @@ Dataset used: **Chest X-Ray Images (Pneumonia)** from Kaggle
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/chopra-mayank/Pneumonia-Detection.git
+git clone [https://github.com/chopra-mayank/Pneumonia-Detection.git](https://github.com/chopra-mayank/Pneumonia-Detection.git)
 cd Pneumonia-Detection
-````
 
 ### 2. Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 ### 3. Run the web application
 
-```bash
 python app.py
-```
 
 ### 4. Open in your browser
 
@@ -98,10 +85,3 @@ Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to access the application
 * The trained model file (`our_model.h5`) is **not included** in the repository.
 * You can either train the model yourself using the dataset or download a pre-trained version.
 * Flask is used to serve the model and handle the front-end interface for local predictions.
-
----
-
-```
-
-Let me know if you'd like this exported as a `.md` file or committed via Git steps.
-```
