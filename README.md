@@ -42,7 +42,7 @@ Dataset used: **Chest X-Ray Images (Pneumonia)** from Kaggle
 ### 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/chopra-mayank/Pneumonia-Detection.git](https://github.com/chopra-mayank/Pneumonia-Detection.git)
+git clone [https://github.com/chopra-mayank/Pneumonia-Detection.git]
 cd Pneumonia-Detection
 ```
 
