@@ -1,5 +1,3 @@
-Here's a well-organized and polished version of your README file with improved formatting, structure, and clarity:
-
 ---
 
 # 🫁 Pneumonia Detection Using Chest X-Ray Images
